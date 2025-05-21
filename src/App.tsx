@@ -8,7 +8,7 @@ import SearchBar from "./components/SearchBar";
 const App: React.FC = () => {
   return (
     <TaskProvider>
-      <div className="grid min-h-screen grid-cols-[30%_65%] gap-12 px-5 bg-gray-100 py-8">
+      <div className="grid min-h-screen grid-cols-1 md:grid-cols-2  lg:grid-cols-[30%_65%] gap-12 px-5 bg-gray-100 py-8">
         <div className="">
           <h1 className="text-2xl font-bold  text-center">Task Manager</h1>
           <p className="text-gray-600 mb-4 text-center">
